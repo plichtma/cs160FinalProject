@@ -60,4 +60,11 @@ public class AllRecipes extends AppCompatActivity {
         Intent intent = new Intent(this, CreateRecipe.class);
         startActivity(intent);
     }
+
+    /** Called when the user taps on a recipe */
+    public void openRecipe(View view) {
+        Intent intent = new Intent(this, RecommendedRecipe1.class);
+        startActivity(intent);
+    }
+
 }
