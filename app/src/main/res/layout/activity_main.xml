@@ -38,4 +38,15 @@
         android:onClick="allRecipes"
         android:text="View All" />
 
+    <TextView
+        android:id="@+id/textView_viewAllFolders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="386dp"
+        android:clickable="true"
+        android:onClick="allFolders"
+        android:text="View All" />
+
 </RelativeLayout>

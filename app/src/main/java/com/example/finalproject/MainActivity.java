@@ -52,4 +52,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AllRecipes.class);
         startActivity(intent);
     }
+
+    /** Called when the user taps the View All under folders */
+    public void allFolders(View view) {
+        Intent intent = new Intent(this, AllFolders.class);
+        startActivity(intent);
+    }
 }
