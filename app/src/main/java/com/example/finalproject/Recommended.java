@@ -48,7 +48,7 @@ public class Recommended extends AppCompatActivity {
 
     /** Called when the user taps the Recommended Recipe 1 under recipes */
     public void recommendedRecipe1(View view) {
-        Intent intent = new Intent(this, RecommendedRecipe1.class);
+        Intent intent = new Intent(this, EggTart.class);
         startActivity(intent);
     }
 }

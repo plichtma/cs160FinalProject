@@ -13,7 +13,7 @@
             android:name=".AllFolders"
             android:exported="false" />
         <activity
-            android:name=".RecommendedRecipe1"
+            android:name=".EggTart"
             android:exported="false" />
         <activity
             android:name=".CreateRecipe"
