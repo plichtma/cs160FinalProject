@@ -12,8 +12,9 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="27dp"
         android:text="My Recipes"
+        android:textColor="#000000"
         android:textSize="40sp"
         android:textStyle="bold" />
 
@@ -32,21 +33,112 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="204dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="30dp"
         android:clickable="true"
         android:onClick="allRecipes"
-        android:text="View All" />
+        android:text="View All"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textView_viewAllFolders"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="386dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="30dp"
         android:clickable="true"
         android:onClick="allFolders"
+        android:textColor="#000000"
         android:text="View All" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginBottom="244dp"
+        app:srcCompat="@drawable/ic_folder" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginBottom="244dp"
+        app:srcCompat="@drawable/ic_folder" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="206dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginBottom="244dp"
+        app:srcCompat="@drawable/ic_folder" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="294dp"
+        android:layout_marginTop="397dp"
+        android:layout_marginBottom="244dp"
+        app:srcCompat="@drawable/ic_folder" />
+
+    <TextView
+        android:id="@+id/textViewRecentRecipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="168dp"
+        android:text="Recent Recipes"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewMyFolders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="336dp"
+        android:text="My Folders"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewSearchRecipes"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/grey_oval"
+        android:gravity="center"
+        android:text="Search Recipes"
+        android:textColor="#000000" />
+
 
 </RelativeLayout>
