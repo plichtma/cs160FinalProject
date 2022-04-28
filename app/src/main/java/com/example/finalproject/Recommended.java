@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -43,5 +44,11 @@ public class Recommended extends AppCompatActivity {
                 return false;
             }
         });
+    }
+
+    /** Called when the user taps the Recommended Recipe 1 under recipes */
+    public void recommendedRecipe1(View view) {
+        Intent intent = new Intent(this, RecommendedRecipe1.class);
+        startActivity(intent);
     }
 }
