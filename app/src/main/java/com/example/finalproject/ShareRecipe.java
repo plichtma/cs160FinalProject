@@ -1,8 +1,5 @@
 package com.example.finalproject;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -13,20 +10,22 @@ import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class AllRecipes extends AppCompatActivity {
-
+public class ShareRecipe extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_all_recipes);
+        setContentView(R.layout.share_recipe);
 
         // Initialize and assign variable
         BottomNavigationView bottomNavigationView=findViewById(R.id.bottom_navigation);
 
-        // Set Recipes selected
-        bottomNavigationView.setSelectedItemId(R.id.recipes);
+        // Set recommended selected
+        bottomNavigationView.setSelectedItemId(R.id.recommended);
 
         // Perform item selected listener
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -51,34 +50,32 @@ public class AllRecipes extends AppCompatActivity {
                 return false;
             }
         });
-
     }
-
     /** Called when the user taps the View All under recipes */
-    public void backMain(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
-    }
-
-    /** Called when the user taps the View All under recipes */
-    public void createRecipe(View view) {
-        Intent intent = new Intent(this, CreateRecipe.class);
-        startActivity(intent);
-    }
-
-    /** Called when the user taps on a recipe */
-    public void openRecipe(View view) {
+    public void backRecipe(View view) {
         Intent intent = new Intent(this, EggTart.class);
         startActivity(intent);
     }
 
-    /**Called when user taps plus button */
+    /** Called when the user taps cancel with share recipe popup */
+    public void cancelPopup(View view) {
+        Intent intent = new Intent(this, ShareRecipe.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps share with share recipe popup */
+    public void sharePopup(View view) {
+        Intent intent = new Intent(this, EggTart.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps a friend to share recipe with */
     public void onButtonShowPopupWindowClick(View view) {
 
         // inflate the layout of the popup window
         LayoutInflater inflater = (LayoutInflater)
                 getSystemService(LAYOUT_INFLATER_SERVICE);
-        View popupView = inflater.inflate(R.layout.create_recipe_options, null);
+        View popupView = inflater.inflate(R.layout.share_popup, null);
 
         // create the popup window
         int width = LinearLayout.LayoutParams.WRAP_CONTENT;
@@ -99,11 +96,4 @@ public class AllRecipes extends AppCompatActivity {
             }
         });
     }
-
-    // dismiss the popup window when cancel button clicked
-    public void cancelOptions(View view) {
-        Intent intent = new Intent(this, AllRecipes.class);
-        startActivity(intent);
-    }
-
 }

@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".AddRecipeToFolder"
+            android:exported="false" />
+        <activity
             android:name=".AllFolders"
             android:exported="false" />
         <activity
-            android:name=".RecommendedRecipe1"
+            android:name=".EggTart"
             android:exported="false" />
         <activity
             android:name=".CreateRecipe"
@@ -26,6 +29,9 @@
             android:exported="false" />
         <activity
             android:name=".Recommended"
+            android:exported="false" />
+        <activity
+            android:name=".ShareRecipe"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

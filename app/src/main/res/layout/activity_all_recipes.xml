@@ -8,6 +8,7 @@
     tools:context=".AllRecipes">
 
     <TextView
+        android:id="@+id/all_recipes_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -46,7 +47,87 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="26dp"
-        android:onClick="createRecipe"
+        android:onClick="onButtonShowPopupWindowClick"
         app:srcCompat="@drawable/ic_action_add" />
+
+    <LinearLayout
+        android:id="@+id/row1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/all_recipes_text"
+        android:layout_margin="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:onClick="openRecipe"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/eggtart" />
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:onClick="openRecipe"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/bowl" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:onClick="openRecipe"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/salad" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/row2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottom_navigation"
+        android:layout_below="@+id/row1"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:onClick="openRecipe"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/eggtart" />
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:onClick="openRecipe"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/bowl" />
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentStart="true"
+            android:adjustViewBounds="true"
+            android:onClick="openRecipe"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/salad" />
+    </LinearLayout>
 
 </RelativeLayout>
