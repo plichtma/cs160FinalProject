@@ -3,21 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/drawable-anydpi/ic_action_add.xml" value="0.201" />
-        <entry key="app/src/main/res/drawable-anydpi/ic_action_back.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable-anydpi/edit.xml" value="0.1905" />
+        <entry key="app/src/main/res/drawable-anydpi/fullStart.xml" value="0.1335" />
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
-        <entry key="app/src/main/res/drawable/ic_action_add_recipe_folder.xml" value="0.16" />
-        <entry key="app/src/main/res/drawable/ic_action_move_folder.xml" value="0.201" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.2085" />
-        <entry key="app/src/main/res/layout/activity_all_folders.xml" value="0.25679347826086957" />
-        <entry key="app/src/main/res/layout/activity_all_recipes.xml" value="0.25081024169921884" />
+        <entry key="app/src/main/res/layout/activity_all_folders.xml" value="0.1709213256835937" />
+        <entry key="app/src/main/res/layout/activity_all_recipes.xml" value="0.48262329101562507" />
         <entry key="app/src/main/res/layout/activity_create_recipe.xml" value="0.34476013183593757" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.273223876953125" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3799407958984375" />
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3337661743164062" />
         <entry key="app/src/main/res/layout/activity_recommended.xml" value="0.4085250854492188" />
-        <entry key="app/src/main/res/layout/activity_recommended_recipe1.xml" value="0.2760437011718752" />
-        <entry key="app/src/main/res/layout/egg_tart.xml" value="0.16728871663411463" />
+        <entry key="app/src/main/res/layout/activity_recommended_recipe1.xml" value="0.46129608154296875" />
+        <entry key="app/src/main/res/layout/egg_tart.xml" value="0.11978912353515625" />
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.32277221679687496" />
       </map>
     </option>
