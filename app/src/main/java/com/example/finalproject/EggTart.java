@@ -33,4 +33,11 @@ public class EggTart extends AppCompatActivity {
         Intent intent = new Intent(this, AddRecipeToFolder.class);
         startActivity(intent);
     }
+
+    /** Called when the user taps the back icon to go back to home page*/
+    public void backToRecipes(View view) {
+
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
 }
