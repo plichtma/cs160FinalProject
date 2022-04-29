@@ -7,6 +7,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -45,7 +48,41 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        //get the spinner from the xml.
+//        Spinner spinner = (Spinner)findViewById(R.id.spinner);
+//        String[] paths = {"item 1", "item 2", "item 3"};
+//        ArrayAdapter<String>adapter = new ArrayAdapter<String>(MainActivity.this,
+//                android.R.layout.simple_spinner_item,paths);
+//
+//        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+//        spinner.setAdapter(adapter);
+//        spinner.setOnItemSelectedListener((AdapterView.OnItemSelectedListener) this);
+
+
+
     }
+
+//    @Override
+//    public void onItemSelected(AdapterView<?> parent, View v, int position, long id) {
+//
+//        switch (position) {
+//            case 0:
+//                // Whatever you want to happen when the first item gets selected
+//                break;
+//            case 1:
+//                // Whatever you want to happen when the second item gets selected
+//                break;
+//            case 2:
+//                // Whatever you want to happen when the thrid item gets selected
+//                break;
+//
+//        }
+//    }
+//
+//    @Override
+//    public void onNothingSelected(AdapterView<?> parent) {
+//        // TODO Auto-generated method stub
+//    }
 
     /** Called when the user taps the View All under recipes */
     public void allRecipes(View view) {

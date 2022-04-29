@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".AddRecipeToFolder"
+            android:exported="false" />
+        <activity
             android:name=".AllFolders"
             android:exported="false" />
         <activity

@@ -24,4 +24,10 @@
     <string name="mail_icon">mail icon</string>
     <string name="messages_icon">messages icon</string>
     <string name="messenger_icon">messenger icon</string>
+    <string-array name="names">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+    </string-array>
 </resources>
