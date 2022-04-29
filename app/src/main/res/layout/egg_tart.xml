@@ -8,25 +8,37 @@
 
     <ImageButton
         android:id="@+id/imageButton5"
-        android:layout_width="27dp"
-        android:layout_height="25dp"
-        app:srcCompat="@drawable/ic_action_add_recipe_folder"
-        tools:layout_editor_absoluteX="312dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/imageButton6"
+        app:srcCompat="@drawable/ic_action_add_recipe_folder" />
 
     <ImageButton
         android:id="@+id/imageButton6"
-        android:layout_width="19dp"
+        android:layout_width="0dp"
         android:layout_height="24dp"
-        app:srcCompat="@drawable/ic_action_share"
-        tools:layout_editor_absoluteX="350dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="42dp"
+        android:onClick="shareRecipe"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_action_share" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="80dp"
         android:text="Egg Tart"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="29dp" />
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

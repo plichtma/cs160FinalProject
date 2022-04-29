@@ -3,4 +3,25 @@
     <string name="recipe_name">Title</string>
     <string name="add_ingredients">add ingredients</string>
     <string name="add_new_step">add new step</string>
+    <string name="share">Share</string>
+    <string name="current_recipe">Current Recipe</string>
+    <string name="recommend_to_friends">Recommend to Friends</string>
+    <string name="sharing_options">Sharing Options</string>
+    <string name="elaine">Elaine</string>
+    <string name="christine">Christine</string>
+    <string name="paul">Paul</string>
+    <string name="mod">Mod</string>
+    <string name="female_icon_image">female icon</string>
+    <string name="instagram">Instagram</string>
+    <string name="mail">Mail</string>
+    <string name="messages">Messages</string>
+    <string name="messenger">Messenger</string>
+    <string name="egg_tart_details">egg tart details</string>
+    <string name="female_icon">female icon</string>
+    <string name="paul_icon">paul icon</string>
+    <string name="mod_icon">mod icon</string>
+    <string name="insta_icon">insta icon</string>
+    <string name="mail_icon">mail icon</string>
+    <string name="messages_icon">messages icon</string>
+    <string name="messenger_icon">messenger icon</string>
 </resources>

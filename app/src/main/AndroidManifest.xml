@@ -28,6 +28,9 @@
             android:name=".Recommended"
             android:exported="false" />
         <activity
+            android:name=".ShareRecipe"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

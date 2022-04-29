@@ -8,7 +8,9 @@
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.137" />
         <entry key="app/src/main/res/drawable/ic_action_add_recipe_folder.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/ic_action_move_folder.xml" value="0.201" />
+        <entry key="app/src/main/res/drawable/ic_egg_tart_details_background.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
+        <entry key="app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.16" />
         <entry key="app/src/main/res/drawable/selector.xml" value="0.2085" />
         <entry key="app/src/main/res/layout/activity_all_folders.xml" value="0.25679347826086957" />
         <entry key="app/src/main/res/layout/activity_all_recipes.xml" value="0.25081024169921884" />
@@ -17,8 +19,12 @@
         <entry key="app/src/main/res/layout/activity_profile.xml" value="0.3337661743164062" />
         <entry key="app/src/main/res/layout/activity_recommended.xml" value="0.4085250854492188" />
         <entry key="app/src/main/res/layout/activity_recommended_recipe1.xml" value="0.2760437011718752" />
-        <entry key="app/src/main/res/layout/egg_tart.xml" value="0.16728871663411463" />
+        <entry key="app/src/main/res/layout/egg_tart.xml" value="0.4352727254231772" />
+        <entry key="app/src/main/res/layout/share_popup.xml" value="0.3233861287434896" />
+        <entry key="app/src/main/res/layout/share_recipe.xml" value="0.3178314208984375" />
         <entry key="app/src/main/res/menu/menu_navigation.xml" value="0.32277221679687496" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_egg_tart_details.xml" value="0.16" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_egg_tart_details_round.xml" value="0.16" />
       </map>
     </option>
   </component>
