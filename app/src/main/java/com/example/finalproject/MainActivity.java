@@ -95,4 +95,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, AllFolders.class);
         startActivity(intent);
     }
+
+    /** Called when the user taps on a recipe */
+    public void openEggTartRecipe(View view) {
+        Intent intent = new Intent(this, EggTart.class);
+        startActivity(intent);
+    }
 }

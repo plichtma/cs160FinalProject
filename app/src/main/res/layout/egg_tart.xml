@@ -227,6 +227,7 @@
                         android:layout_alignParentEnd="true"
                         android:layout_marginEnd="0dp"
                         android:backgroundTint="@android:color/white"
+                        android:onClick="resetInstr"
                         android:text="reset"
                         android:textColor="@color/black" />
 
@@ -240,6 +241,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBoxEggs"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="eggs                               2 eggs"
@@ -248,16 +250,19 @@
                     <!--android:onclick="fnName"-->
 
                     <CheckBox
+                        android:id="@+id/checkBoxSalt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="salt                                 5g"
                         android:padding="10dp" />
                     <CheckBox
+                        android:id="@+id/checkBoxBP"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="baking powder             4g"
                         android:padding="10dp" />
                     <CheckBox
+                        android:id="@+id/checkBoxMilk"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="milk                                100ml"
@@ -301,6 +306,7 @@
                         android:layout_marginEnd="2dp"
                         android:backgroundTint="@android:color/white"
                         android:text="reset"
+                        android:onClick="resetSteps"
                         android:textColor="@color/black" />
 
                 </RelativeLayout>
@@ -314,6 +320,7 @@
                     android:orientation="vertical">
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
@@ -322,36 +329,42 @@
                     <!--android:onclick="fnName"-->
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Whisk the egg yolks and add the 2 tablespoons of beaten yolk to the flour mixture. Bring together until smooth. If the dough is too sticky, coating your hands with flour will help. Cover with plastic wrap and then refrigerate for 30 minutes, or until the dough is firm."
                         android:padding="10dp"/>
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="To make the custard filling, melt sugar and salt with hot water. Mix until dissolved then let cool."
                         android:padding="10dp"/>
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Add the rest of the beaten egg yolk. Stir in sugar water and also evaporated milk (if adding vanilla, add now). Stir and combine everything well."
                         android:padding="10dp"/>
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Strain the filling to ensure no lumps. Chill in the refrigerator."
                         android:padding="10dp"/>
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Preheat the oven to 400˚F (200˚C.)"
                         android:padding="10dp"/>
 
                     <CheckBox
+                        android:id="@+id/checkBoxStep7"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Take the dough out and divide into 16 equal portions. Spray the tart pan with a light coating of oil. Take one portion of your dough and roll it into a ball and place in your tart shell. Press the shell into the pan with your fingers. Try to make the wrapper uniform in thickness and avoid a thick bottom. Repeat to finish all."

@@ -78,15 +78,16 @@
             android:scaleType="fitCenter"
             android:layout_marginRight="10dp"
             app:srcCompat="@drawable/bowl" />
+
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
             android:adjustViewBounds="true"
             android:onClick="openRecipe"
             android:scaleType="fitCenter"
-            android:layout_marginRight="10dp"
             app:srcCompat="@drawable/salad" />
     </LinearLayout>
     <LinearLayout
