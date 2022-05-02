@@ -64,6 +64,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="397dp"
         android:layout_marginBottom="244dp"
+        android:onClick="openFolder1"
         app:srcCompat="@drawable/ic_folder" />
 
     <ImageView

@@ -55,7 +55,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/all_recipes_text"
-        android:layout_margin="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -63,20 +66,21 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
             android:adjustViewBounds="true"
             android:onClick="openRecipe"
             android:scaleType="fitCenter"
-            android:layout_marginRight="10dp"
             app:srcCompat="@drawable/eggtart" />
+
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
+            android:layout_marginRight="10dp"
             android:adjustViewBounds="true"
             android:onClick="openRecipe"
             android:scaleType="fitCenter"
-            android:layout_marginRight="10dp"
             app:srcCompat="@drawable/bowl" />
 
         <ImageView
@@ -110,7 +114,7 @@
             android:layout_marginRight="10dp"
             app:srcCompat="@drawable/eggtart" />
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/imageViewRec1Added"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
@@ -118,9 +122,10 @@
             android:onClick="openRecipe"
             android:scaleType="fitCenter"
             android:layout_marginRight="10dp"
+            android:visibility="invisible"
             app:srcCompat="@drawable/bowl" />
         <ImageView
-            android:id="@+id/imageView6"
+            android:id="@+id/imageViewRec2Added"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
@@ -128,6 +133,7 @@
             android:onClick="openRecipe"
             android:scaleType="fitCenter"
             android:layout_marginRight="10dp"
+            android:visibility="invisible"
             app:srcCompat="@drawable/salad" />
     </LinearLayout>
 

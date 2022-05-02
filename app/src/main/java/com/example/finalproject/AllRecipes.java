@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 
@@ -51,6 +52,16 @@ public class AllRecipes extends AppCompatActivity {
                 return false;
             }
         });
+
+        if (Recommended.ADDED1 != null) {
+            ImageView rec1 = (ImageView) findViewById(R.id.imageViewRec1Added);
+            rec1.setVisibility(View.VISIBLE);
+        }
+        if (Recommended.ADDED2 != null) {
+            ImageView rec2 = (ImageView) findViewById(R.id.imageViewRec2Added);
+            rec2.setVisibility(View.VISIBLE);
+        }
+
 
     }
 

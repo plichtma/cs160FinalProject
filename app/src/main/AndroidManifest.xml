@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".Recommended2"
+            android:exported="false" />
+        <activity
+            android:name=".FolderOne"
+            android:exported="false" />
+        <activity
+            android:name=".folder1"
+            android:exported="false" />
+        <activity
             android:name=".Recommended1"
             android:exported="false" />
         <activity
