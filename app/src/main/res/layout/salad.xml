@@ -12,7 +12,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".EggTart">
+        tools:context=".Salad">
 
         <RelativeLayout
             android:id="@+id/topNav"
@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Egg Tart"
+                android:text="Salad"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -89,7 +89,7 @@
             android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/topNav"
-            app:srcCompat="@drawable/eggtartt" />
+            app:srcCompat="@drawable/salad" />
 
         <ImageView
             android:id="@+id/imageView3"
@@ -127,7 +127,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
-            android:text="Last cooked Feb 13"
+            android:text="Last cooked May 3"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageView7"
@@ -179,7 +179,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
-            android:text="1hr 30mins"
+            android:text="15mins"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageView6"
@@ -244,7 +244,7 @@
                         android:id="@+id/checkBoxEggs"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="eggs                               2 eggs"
+                        android:text="Mix of wild and/or cultivated leafy greens and tender fresh herbs"
                         android:padding="10dp"
                         />
                     <!--android:onclick="fnName"-->
@@ -253,19 +253,19 @@
                         android:id="@+id/checkBoxSalt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="salt                                 5g"
+                        android:text="Extra-virgin olive oil "
                         android:padding="10dp" />
                     <CheckBox
                         android:id="@+id/checkBoxBP"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="baking powder             4g"
+                        android:text="Fresh lemon juice "
                         android:padding="10dp" />
                     <CheckBox
                         android:id="@+id/checkBoxMilk"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="milk                                100ml"
+                        android:text="Kosher or sea salt"
                         android:padding="10dp" />
 
 
@@ -324,50 +324,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
-                        android:text="For the pastry, in a large bowl, sift flour, sugar, and salt. Then add softened butter. Bring the mixture together with your hands, careful not to knead the pastry dough too much or you will make the pastry tough."
+                        android:text="Pick over the leafy vegetables, discarding any wilted or damaged leaves. Cut lettuce leaves free of their cores, pick the tender herbs from stems, and quarter, core, and slice tight leafy heads like radicchio and endive. Wash everything in several changes of water until no dirt or grit remains. Dry well in a salad spinner."
                         android:padding="10dp"/>
-                    <!--android:onclick="fnName"-->
-
                     <CheckBox
                         android:id="@+id/checkBoxStep2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Whisk the egg yolks and add the 2 tablespoons of beaten yolk to the flour mixture. Bring together until smooth. If the dough is too sticky, coating your hands with flour will help. Cover with plastic wrap and then refrigerate for 30 minutes, or until the dough is firm."
-                        android:padding="10dp"/>
-
-                    <CheckBox
-                        android:id="@+id/checkBoxStep3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="To make the custard filling, melt sugar and salt with hot water. Mix until dissolved then let cool."
-                        android:padding="10dp"/>
-
-                    <CheckBox
-                        android:id="@+id/checkBoxStep4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Add the rest of the beaten egg yolk. Stir in sugar water and also evaporated milk (if adding vanilla, add now). Stir and combine everything well."
-                        android:padding="10dp"/>
-
-                    <CheckBox
-                        android:id="@+id/checkBoxStep5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Strain the filling to ensure no lumps. Chill in the refrigerator."
-                        android:padding="10dp"/>
-
-                    <CheckBox
-                        android:id="@+id/checkBoxStep6"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Preheat the oven to 400˚F (200˚C.)"
-                        android:padding="10dp"/>
-
-                    <CheckBox
-                        android:id="@+id/checkBoxStep7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Take the dough out and divide into 16 equal portions. Spray the tart pan with a light coating of oil. Take one portion of your dough and roll it into a ball and place in your tart shell. Press the shell into the pan with your fingers. Try to make the wrapper uniform in thickness and avoid a thick bottom. Repeat to finish all."
+                        android:text="In a large serving bowl, gently toss salad with just enough olive oil to gently coat leaves. Add a splash of lemon juice and salt to taste, tossing to combine. Serve. "
                         android:padding="10dp"/>
                 </LinearLayout>
 
@@ -422,23 +385,8 @@
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
-                            android:text="Make sure to whisk the eggs enough or the egg tart becomes to dense"
-                            android:textColor="@color/black"></TextView>
-                    </TableRow>
-
-                    <TableRow android:gravity="center_vertical">
-
-                        <TextView
-                            android:layout_column="1"
-                            android:text="•"
-                            android:textColor="@color/black"
-                            android:textSize="40dp"></TextView>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_column="2"
-                            android:layout_marginLeft="20dp"
-                            android:text="Reciepe is too sweet. Less sugar."
+                            android:text="The key here is to use what you can get, and not try to force anything into the salad that won't be great. If you live near a farm stand or farmers market, that may be your best bet.
+If not, or if it's not the right season, stick to hardy leafy vegetables and herbs like radicchio, endive, romaine, escarole, frisée, and baby kale. "
                             android:textColor="@color/black"></TextView>
                     </TableRow>
 

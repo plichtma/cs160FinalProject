@@ -101,6 +101,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, EggTart.class);
         startActivity(intent);
     }
+
+    public void openSaladRecipe(View view) {
+        Intent intent = new Intent(this, Salad.class);
+        startActivity(intent);
+    }
+
     /** Called when the user taps on folder 1 */
     public void openFolder1(View view) {
         Intent intent = new Intent(this, FolderOne.class);
