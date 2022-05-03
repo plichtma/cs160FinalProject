@@ -57,13 +57,13 @@ public class Salad extends AppCompatActivity {
 
     /** Reset steps when reset is pressed*/
     public void resetSteps(View view) {
-//        CheckBox step1 = (CheckBox)findViewById(R.id.checkBoxStep1);
-//        CheckBox step2 = (CheckBox)findViewById(R.id.checkBoxStep2);
-//        if(step1.isChecked()){
-//            step1.toggle();
-//        }
-//        if(step2.isChecked()){
-//            step2.toggle();
-//        }
+        CheckBox step1 = (CheckBox)findViewById(R.id.checkBoxStep1);
+        CheckBox step2 = (CheckBox)findViewById(R.id.checkBoxStep2);
+        if(step1.isChecked()){
+            step1.toggle();
+        }
+        if(step2.isChecked()){
+            step2.toggle();
+        }
     }
 }
