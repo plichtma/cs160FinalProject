@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Egg Tart"
+                android:text="PB Cookies"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -179,7 +179,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
-            android:text="1hr 30mins"
+            android:text="15mins"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageView6"
@@ -244,7 +244,7 @@
                         android:id="@+id/checkBoxEggs"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="eggs                               2 eggs"
+                        android:text="sugar                                     1 cup"
                         android:padding="10dp"
                         />
                     <!--android:onclick="fnName"-->
@@ -253,19 +253,13 @@
                         android:id="@+id/checkBoxSalt"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="salt                                 5g"
+                        android:text="creamy peanut butter          1 cup"
                         android:padding="10dp" />
                     <CheckBox
                         android:id="@+id/checkBoxBP"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="baking powder             4g"
-                        android:padding="10dp" />
-                    <CheckBox
-                        android:id="@+id/checkBoxMilk"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="milk                                100ml"
+                        android:text="large egg                               1 egg"
                         android:padding="10dp" />
 
 
@@ -324,7 +318,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:clickable="true"
-                        android:text="For the pastry, in a large bowl, sift flour, sugar, and salt. Then add softened butter. Bring the mixture together with your hands, careful not to knead the pastry dough too much or you will make the pastry tough."
+                        android:text="Preheat oven to 350° F."
                         android:padding="10dp"/>
                     <!--android:onclick="fnName"-->
 
@@ -332,43 +326,37 @@
                         android:id="@+id/checkBoxStep2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Whisk the egg yolks and add the 2 tablespoons of beaten yolk to the flour mixture. Bring together until smooth. If the dough is too sticky, coating your hands with flour will help. Cover with plastic wrap and then refrigerate for 30 minutes, or until the dough is firm."
+                        android:text="Prepare a baking sheet by lining it with parchment or with a silicone baking mat."
                         android:padding="10dp"/>
 
                     <CheckBox
                         android:id="@+id/checkBoxStep3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="To make the custard filling, melt sugar and salt with hot water. Mix until dissolved then let cool."
+                        android:text="In a medium bowl, mix the sugar, peanut butter and egg together until well incorporated" />
                         android:padding="10dp"/>
 
                     <CheckBox
                         android:id="@+id/checkBoxStep4"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Add the rest of the beaten egg yolk. Stir in sugar water and also evaporated milk (if adding vanilla, add now). Stir and combine everything well."
+                        android:text="Roll the dough into 1-inch balls and place on the prepared baking sheet. Using the back of a fork, make a criss-cross pattern on each cookie." />
                         android:padding="10dp"/>
 
                     <CheckBox
                         android:id="@+id/checkBoxStep5"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Strain the filling to ensure no lumps. Chill in the refrigerator."
+                        android:text="Bake for 12 minutes."
                         android:padding="10dp"/>
 
                     <CheckBox
                         android:id="@+id/checkBoxStep6"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Preheat the oven to 400˚F (200˚C.)"
+                        android:text="Allow to cool on the baking sheet for a minute or two before transferring to a wire rack."
                         android:padding="10dp"/>
 
-                    <CheckBox
-                        android:id="@+id/checkBoxStep7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Take the dough out and divide into 16 equal portions. Spray the tart pan with a light coating of oil. Take one portion of your dough and roll it into a ball and place in your tart shell. Press the shell into the pan with your fingers. Try to make the wrapper uniform in thickness and avoid a thick bottom. Repeat to finish all."
-                        android:padding="10dp"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -422,23 +410,7 @@
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
-                            android:text="Make sure to whisk the eggs enough or the egg tart becomes to dense"
-                            android:textColor="@color/black"/>
-                    </TableRow>
-
-                    <TableRow android:gravity="center_vertical">
-
-                        <TextView
-                            android:layout_column="1"
-                            android:text="•"
-                            android:textColor="@color/black"
-                            android:textSize="40dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_column="2"
-                            android:layout_marginLeft="20dp"
-                            android:text="Reciepe is too sweet. Less sugar."
+                            android:text="These cookies will not spread, so can be placed about an inch or so apart."
                             android:textColor="@color/black"/>
                     </TableRow>
 

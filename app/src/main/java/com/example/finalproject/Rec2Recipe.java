@@ -51,9 +51,6 @@ public class Rec2Recipe extends AppCompatActivity {
         if(bp.isChecked()){
             bp.toggle();
         }
-        if(milk.isChecked()){
-            milk.toggle();
-        }
     }
 
     /** Reset steps when reset is pressed*/
@@ -64,7 +61,6 @@ public class Rec2Recipe extends AppCompatActivity {
         CheckBox step4 = (CheckBox)findViewById(R.id.checkBoxStep4);
         CheckBox step5 = (CheckBox)findViewById(R.id.checkBoxStep5);
         CheckBox step6 = (CheckBox)findViewById(R.id.checkBoxStep6);
-        CheckBox step7 = (CheckBox)findViewById(R.id.checkBoxStep7);
         if(step1.isChecked()){
             step1.toggle();
         }
@@ -82,9 +78,6 @@ public class Rec2Recipe extends AppCompatActivity {
         }
         if(step6.isChecked()){
             step6.toggle();
-        }
-        if(step7.isChecked()){
-            step7.toggle();
         }
     }
 }

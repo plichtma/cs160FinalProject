@@ -88,6 +88,11 @@ public class AllRecipes extends AppCompatActivity {
         Intent intent = new Intent(this, Rec1Recipe.class);
         startActivity(intent);
     }
+    /** Called when the user taps on rec2recipe */
+    public void openRec2Recipe(View view) {
+        Intent intent = new Intent(this, Rec2Recipe.class);
+        startActivity(intent);
+    }
 
     /**Called when user taps plus button */
     public void onButtonShowPopupWindowClick(View view) {

@@ -130,7 +130,7 @@
             android:layout_height="100dp"
             android:layout_alignParentStart="true"
             android:adjustViewBounds="true"
-            android:onClick="openRecipe"
+            android:onClick="openRec2Recipe"
             android:scaleType="fitCenter"
             android:layout_marginRight="10dp"
             android:visibility="invisible"

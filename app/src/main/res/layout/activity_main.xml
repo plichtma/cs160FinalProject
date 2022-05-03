@@ -194,7 +194,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="185dp"
         android:layout_marginTop="482dp"
-        android:text="Lunch" />
+        android:text="Dessert" />
 
     <TextView
         android:id="@+id/textView18"
@@ -215,7 +215,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="193dp"
         android:layout_marginTop="308dp"
-        android:text="Salad" />
+        android:text="" />
 
     <TextView
         android:id="@+id/textView5"
