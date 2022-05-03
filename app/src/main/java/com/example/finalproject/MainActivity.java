@@ -117,5 +117,10 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, FolderOne.class);
         startActivity(intent);
     }
+    /** Called when the user taps on folder 2 */
+    public void openFolder2(View view) {
+        Intent intent = new Intent(this, FolderTwo.class);
+        startActivity(intent);
+    }
 
 }

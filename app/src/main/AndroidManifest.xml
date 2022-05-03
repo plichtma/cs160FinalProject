@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".FolderTwo"
+            android:exported="false" />
+        <activity
             android:name=".Rec2Recipe"
             android:exported="false" />
         <activity
