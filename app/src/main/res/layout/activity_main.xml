@@ -163,6 +163,7 @@
         android:layout_alignParentEnd="true"
         android:layout_marginTop="219dp"
         android:layout_marginEnd="31dp"
+        android:onClick="openPancakeRecipe"
         app:srcCompat="@drawable/pancakes" />
 
     <TextView
