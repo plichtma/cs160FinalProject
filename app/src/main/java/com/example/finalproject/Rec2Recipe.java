@@ -22,8 +22,9 @@ public class Rec2Recipe extends AppCompatActivity {
 
     /** Called when the user taps the folder icon to add recipe to folder*/
     public void addRecipeToFolderPopup(View view) {
-
         Intent intent = new Intent(this, AddRecipeToFolder.class);
+        String recipe = "rec2";
+        intent.putExtra("recipe", "rec2");
         startActivity(intent);
     }
 

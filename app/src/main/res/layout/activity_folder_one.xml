@@ -57,6 +57,7 @@
         android:layout_marginStart="37dp"
         android:layout_marginTop="121dp"
         android:layout_marginBottom="244dp"
+        android:onClick="openRecipe"
         app:srcCompat="@drawable/eggtart" />
 
     <ImageView
@@ -68,6 +69,19 @@
         android:layout_marginStart="161dp"
         android:layout_marginTop="121dp"
         android:layout_marginBottom="244dp"
+        app:srcCompat="@drawable/eggtart" />
+
+    <ImageView
+        android:id="@+id/imageViewRec1AddedFolder"
+        android:layout_width="87dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="285dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="244dp"
+        android:onClick="openRec1Recipe"
+        android:visibility="invisible"
         app:srcCompat="@drawable/eggtart" />
 
 </RelativeLayout>

@@ -7,10 +7,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class FolderOne extends AppCompatActivity {
+    public static Boolean REC1ADDEDTOFOLDER;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,11 +48,28 @@ public class FolderOne extends AppCompatActivity {
                 return false;
             }
         });
+
+        if (REC1ADDEDTOFOLDER != null) {
+            ImageView rec1 = (ImageView) findViewById(R.id.imageViewRec1AddedFolder);
+            rec1.setVisibility(View.VISIBLE);
+        }
     }
 
     /** Called when the user taps the back arrow */
     public void backMain(View view) {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+    /** Called when the user taps on rec1recipe */
+    public void openRec1Recipe(View view) {
+        Intent intent = new Intent(this, Rec1Recipe.class);
+        startActivity(intent);
+    }
+
+    /** Called when the user taps on a first recipe */
+    public void openRecipe(View view) {
+        Intent intent = new Intent(this, EggTart.class);
+        startActivity(intent);
+
     }
 }

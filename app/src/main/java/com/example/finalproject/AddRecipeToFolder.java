@@ -10,6 +10,8 @@ import android.widget.Spinner;
 
 public class AddRecipeToFolder extends AppCompatActivity {
 
+    public static String RECIPE;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,12 +27,20 @@ public class AddRecipeToFolder extends AppCompatActivity {
 
     /** Called when the user taps add with add recipe to folder popup */
     public void addPopup(View view) {
-        Intent intent = new Intent(this, EggTart.class);
+        Spinner spinner1 = (Spinner)findViewById(R.id.spinner2);
+        String selected_folder = spinner1.getSelectedItem().toString();
+        //((RECIPE == "rec1") && (selected_folder == "Breakfast"))
+        if ((Rec1Recipe.POPUPOPENED == true) && (selected_folder.equals("Breakfast"))) {
+            FolderOne.REC1ADDEDTOFOLDER = true;
+        }
+        Intent intent = new Intent(this, Rec1Recipe.class);
+        Rec1Recipe.POPUPOPENED = false;
         startActivity(intent);
     }
     /** Called when the user taps cancel with add recipe to folder popup */
     public void cancelAddPopup(View view) {
-        Intent intent = new Intent(this, EggTart.class);
+        Intent intent = new Intent(this, Rec1Recipe.class);
+        Rec1Recipe.POPUPOPENED = false;
         startActivity(intent);
     }
 }

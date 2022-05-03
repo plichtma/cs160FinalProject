@@ -304,7 +304,7 @@
                         android:padding="10dp"
                         android:text="1. For the pastry, in a large bowl, sift flour, sugar, and salt. Then add softened butter. Bring the mixture together with your hands, careful not to knead the pastry dough too much or you will make the pastry tough."
                         android:textColor="@color/black"
-                        android:textSize="15dp" />
+                        android:textSize="13dp" />
                     <!--android:onclick="fnName"-->
 
                     <TextView
@@ -315,7 +315,7 @@
                         android:padding="10dp"
                         android:text="2. Whisk the egg yolks and add the 2 tablespoons of beaten yolk to the flour mixture. Bring together until smooth. If the dough is too sticky, coating your hands with flour will help. Cover with plastic wrap and then refrigerate for 30 minutes, or until the dough is firm."
                         android:textColor="@color/black"
-                        android:textSize="15dp" />
+                        android:textSize="13dp" />
 
                     <TextView
                         android:id="@+id/checkBoxStep3"
@@ -323,7 +323,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:textSize="13dp"
                         android:padding="10dp"
                         android:text="3. To make the custard filling, melt sugar and salt with hot water. Mix until dissolved then let cool." />
 
@@ -333,7 +333,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:textSize="13dp"
                         android:padding="10dp"
                         android:text="4. Add the rest of the beaten egg yolk. Stir in sugar water and also evaporated milk (if adding vanilla, add now). Stir and combine everything well." />
 
@@ -343,7 +343,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:textSize="13dp"
                         android:padding="10dp"
                         android:text="5. Strain the filling to ensure no lumps. Chill in the refrigerator." />
 
@@ -353,7 +353,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:textSize="13dp"
                         android:padding="10dp"
                         android:text="6. Preheat the oven to 400˚F (200˚C.)" />
 
@@ -363,7 +363,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:textSize="13dp"
                         android:padding="10dp"
                         android:text="7. Take the dough out and divide into 16 equal portions. Spray the tart pan with a light coating of oil. Take one portion of your dough and roll it into a ball and place in your tart shell. Press the shell into the pan with your fingers. Try to make the wrapper uniform in thickness and avoid a thick bottom. Repeat to finish all." />
                 </LinearLayout>
@@ -377,6 +377,7 @@
                 android:layout_marginTop="24dp"
                 android:orientation="vertical"
                 app:layout_constraintTop_toBottomOf="@+id/steps"
+                app:layout_constraintBottom_toBottomOf="parent"
                 tools:layout_editor_absoluteX="0dp">
 
                 <RelativeLayout
@@ -413,14 +414,14 @@
                             android:layout_column="1"
                             android:text="•"
                             android:textColor="@color/black"
-                            android:textSize="40dp"></TextView>
+                            android:textSize="40dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
                             android:text="Make sure to whisk the eggs enough or the egg tart becomes to dense"
-                            android:textColor="@color/black"></TextView>
+                            android:textColor="@color/black"/>
                     </TableRow>
 
                     <TableRow android:gravity="center_vertical">
@@ -429,14 +430,14 @@
                             android:layout_column="1"
                             android:text="•"
                             android:textColor="@color/black"
-                            android:textSize="40dp"></TextView>
+                            android:textSize="40dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
                             android:text="Reciepe is too sweet. Less sugar."
-                            android:textColor="@color/black"></TextView>
+                            android:textColor="@color/black"/>
                     </TableRow>
 
                     <TableRow android:gravity="center_vertical">
@@ -445,14 +446,14 @@
                             android:layout_column="1"
                             android:text="⊕"
                             android:textColor="@color/darkgray"
-                            android:textSize="18dp"></TextView>
+                            android:textSize="18dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
                             android:text="add note"
-                            android:textColor="@color/darkgray"></TextView>
+                            android:textColor="@color/darkgray"/>
                     </TableRow>
                 </TableLayout>
 
