@@ -22,9 +22,6 @@
             android:name=".FolderOne"
             android:exported="false" />
         <activity
-            android:name=".folder1"
-            android:exported="false" />
-        <activity
             android:name=".Recommended1"
             android:exported="false" />
         <activity
@@ -35,6 +32,9 @@
             android:exported="false" />
         <activity
             android:name=".EggTart"
+            android:exported="false" />
+        <activity
+            android:name=".Salad"
             android:exported="false" />
         <activity
             android:name=".CreateRecipe"

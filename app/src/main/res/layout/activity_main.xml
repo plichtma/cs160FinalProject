@@ -151,6 +151,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="219dp"
         android:layout_marginEnd="154dp"
+        android:onClick="openSaladRecipe"
         app:srcCompat="@drawable/salad" />
 
     <ImageView
