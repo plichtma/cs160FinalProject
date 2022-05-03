@@ -9,7 +9,7 @@ import android.widget.CheckBox;
 
 public class Rec1Recipe extends AppCompatActivity {
 
-    public static Boolean POPUPOPENED;
+    public static Boolean POPUPOPENED1 = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class Rec1Recipe extends AppCompatActivity {
     /** Called when the user taps the folder icon to add recipe to folder*/
     public void addRecipeToFolderPopup(View view) {
         Intent intent = new Intent(this, AddRecipeToFolder.class);
-        POPUPOPENED = true;
+        POPUPOPENED1 = true;
         startActivity(intent);
     }
 
