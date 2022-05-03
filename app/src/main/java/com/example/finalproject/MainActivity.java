@@ -107,6 +107,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openPancakeRecipe(View view) {
+        Intent intent = new Intent(this, Pancake.class);
+        startActivity(intent);
+    }
+
     /** Called when the user taps on folder 1 */
     public void openFolder1(View view) {
         Intent intent = new Intent(this, FolderOne.class);

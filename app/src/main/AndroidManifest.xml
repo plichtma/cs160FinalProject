@@ -52,6 +52,9 @@
             android:name=".ShareRecipe"
             android:exported="false" />
         <activity
+            android:name=".Pancake"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
