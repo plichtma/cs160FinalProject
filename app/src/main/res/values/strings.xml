@@ -24,6 +24,11 @@
     <string name="mail_icon">mail icon</string>
     <string name="messages_icon">messages icon</string>
     <string name="messenger_icon">messenger icon</string>
+    <string name="profile">Profile</string>
+    <string name="friends">Friends</string>
+    <string name="see_all">See all</string>
+    <string name="_20_friends">20 friends</string>
+    <string name="icon">icon</string>
     <string-array name="names">
         <item>Breakfast</item>
         <item>Entree</item>
