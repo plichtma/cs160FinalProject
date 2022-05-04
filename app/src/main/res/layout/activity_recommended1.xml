@@ -39,7 +39,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:text="Egg Tart"
+                android:text="French Toast"
                 android:textColor="@color/black"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -161,7 +161,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
-            android:text="1hr 30mins"
+            android:text="25 mins"
             android:textColor="@color/black"
             android:textStyle="bold"
             app:layout_constraintStart_toEndOf="@+id/imageView6"
@@ -218,7 +218,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:text="eggs                               2 eggs"
+                        android:text="whipped cream cheese                  8 oz"
                         android:padding="10dp"
                         />
                     <!--android:onclick="fnName"-->
@@ -229,7 +229,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:text="salt                                 5g"
+                        android:text="sourdough bread                             12 slices"
                         android:padding="10dp" />
                     <TextView
                         android:id="@+id/checkBoxBP"
@@ -237,7 +237,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:text="baking powder             4g"
+                        android:text="large eggs                                         4"
                         android:padding="10dp" />
                     <TextView
                         android:id="@+id/checkBoxMilk"
@@ -245,7 +245,15 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:textColor="@color/black"
-                        android:text="milk                                100ml"
+                        android:text="2% milk                                              2 tbsp"
+                        android:padding="10dp" />
+                    <TextView
+                        android:id="@+id/checkBoxOrange"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/black"
+                        android:text="orange marmalade                         3/4 cups"
                         android:padding="10dp" />
 
                 </LinearLayout>
@@ -294,7 +302,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:padding="10dp"
-                        android:text="1. For the pastry, in a large bowl, sift flour, sugar, and salt. Then add softened butter. Bring the mixture together with your hands, careful not to knead the pastry dough too much or you will make the pastry tough."
+                        android:text="1. Spread cream cheese over 6 slices of bread; top with marmalade and remaining bread. In a shallow bowl, whisk eggs and milk."
                         android:textColor="@color/black"
                         android:textSize="13dp" />
                     <!--android:onclick="fnName"-->
@@ -305,59 +313,10 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="20dp"
                         android:padding="10dp"
-                        android:text="2. Whisk the egg yolks and add the 2 tablespoons of beaten yolk to the flour mixture. Bring together until smooth. If the dough is too sticky, coating your hands with flour will help. Cover with plastic wrap and then refrigerate for 30 minutes, or until the dough is firm."
+                        android:text="2. Heat a large greased cast-iron skillet or griddle over medium heat. Dip both sides of sandwiches into egg mixture. Place sandwiches in skillet; cook until golden brown, 2-3 minutes on each side. If desired, serve with syrup."
                         android:textColor="@color/black"
                         android:textSize="13dp" />
 
-                    <TextView
-                        android:id="@+id/checkBoxStep3"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textColor="@color/black"
-                        android:textSize="13dp"
-                        android:padding="10dp"
-                        android:text="3. To make the custard filling, melt sugar and salt with hot water. Mix until dissolved then let cool." />
-
-                    <TextView
-                        android:id="@+id/checkBoxStep4"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textColor="@color/black"
-                        android:textSize="13dp"
-                        android:padding="10dp"
-                        android:text="4. Add the rest of the beaten egg yolk. Stir in sugar water and also evaporated milk (if adding vanilla, add now). Stir and combine everything well." />
-
-                    <TextView
-                        android:id="@+id/checkBoxStep5"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textColor="@color/black"
-                        android:textSize="13dp"
-                        android:padding="10dp"
-                        android:text="5. Strain the filling to ensure no lumps. Chill in the refrigerator." />
-
-                    <TextView
-                        android:id="@+id/checkBoxStep6"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textColor="@color/black"
-                        android:textSize="13dp"
-                        android:padding="10dp"
-                        android:text="6. Preheat the oven to 400˚F (200˚C.)" />
-
-                    <TextView
-                        android:id="@+id/checkBoxStep7"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
-                        android:textColor="@color/black"
-                        android:textSize="13dp"
-                        android:padding="10dp"
-                        android:text="7. Take the dough out and divide into 16 equal portions. Spray the tart pan with a light coating of oil. Take one portion of your dough and roll it into a ball and place in your tart shell. Press the shell into the pan with your fingers. Try to make the wrapper uniform in thickness and avoid a thick bottom. Repeat to finish all." />
                 </LinearLayout>
 
             </LinearLayout>
@@ -412,41 +371,10 @@
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
-                            android:text="Make sure to whisk the eggs enough or the egg tart becomes to dense"
+                            android:text="Make sure eggs are room temperature."
                             android:textColor="@color/black"/>
                     </TableRow>
 
-                    <TableRow android:gravity="center_vertical">
-
-                        <TextView
-                            android:layout_column="1"
-                            android:text="•"
-                            android:textColor="@color/black"
-                            android:textSize="40dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_column="2"
-                            android:layout_marginLeft="20dp"
-                            android:text="Reciepe is too sweet. Less sugar."
-                            android:textColor="@color/black"/>
-                    </TableRow>
-
-                    <TableRow android:gravity="center_vertical">
-
-                        <TextView
-                            android:layout_column="1"
-                            android:text="⊕"
-                            android:textColor="@color/darkgray"
-                            android:textSize="18dp"/>
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_column="2"
-                            android:layout_marginLeft="20dp"
-                            android:text="add note"
-                            android:textColor="@color/darkgray"/>
-                    </TableRow>
                 </TableLayout>
 
             </LinearLayout>

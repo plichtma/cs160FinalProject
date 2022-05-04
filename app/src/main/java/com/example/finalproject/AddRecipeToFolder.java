@@ -35,7 +35,7 @@ public class AddRecipeToFolder extends AppCompatActivity {
         //((RECIPE == "rec1") && (selected_folder == "Breakfast"))
         if ((Rec1Recipe.POPUPOPENED1 == true) && (selected_folder.equals("Breakfast"))) {
             FolderOne.REC1ADDEDTOFOLDER = true;
-        }else if ((Rec2Recipe.POPUPOPENED2 == true) && (selected_folder.equals("Lunch"))) {
+        }else if ((Rec2Recipe.POPUPOPENED2 == true) && (selected_folder.equals("Dessert"))) {
             FolderTwo.REC2ADDEDTOFOLDER = true;
         }
         Rec1Recipe.POPUPOPENED1 = false;

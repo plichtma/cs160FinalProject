@@ -42,6 +42,8 @@ public class Rec1Recipe extends AppCompatActivity {
         CheckBox salt = (CheckBox)findViewById(R.id.checkBoxSalt);
         CheckBox bp = (CheckBox)findViewById(R.id.checkBoxBP);
         CheckBox milk = (CheckBox)findViewById(R.id.checkBoxMilk);
+        CheckBox orange = (CheckBox)findViewById(R.id.checkBoxOrange);
+
         if(eggs.isChecked()){
             eggs.toggle();
         }
@@ -54,37 +56,20 @@ public class Rec1Recipe extends AppCompatActivity {
         if(milk.isChecked()){
             milk.toggle();
         }
+        if(orange.isChecked()){
+            orange.toggle();
+        }
     }
 
     /** Reset steps when reset is pressed*/
     public void resetSteps(View view) {
         CheckBox step1 = (CheckBox)findViewById(R.id.checkBoxStep1);
         CheckBox step2 = (CheckBox)findViewById(R.id.checkBoxStep2);
-        CheckBox step3 = (CheckBox)findViewById(R.id.checkBoxStep3);
-        CheckBox step4 = (CheckBox)findViewById(R.id.checkBoxStep4);
-        CheckBox step5 = (CheckBox)findViewById(R.id.checkBoxStep5);
-        CheckBox step6 = (CheckBox)findViewById(R.id.checkBoxStep6);
-        CheckBox step7 = (CheckBox)findViewById(R.id.checkBoxStep7);
         if(step1.isChecked()){
             step1.toggle();
         }
         if(step2.isChecked()){
             step2.toggle();
-        }
-        if(step3.isChecked()){
-            step3.toggle();
-        }
-        if(step4.isChecked()){
-            step4.toggle();
-        }
-        if(step5.isChecked()){
-            step5.toggle();
-        }
-        if(step6.isChecked()){
-            step6.toggle();
-        }
-        if(step7.isChecked()){
-            step7.toggle();
         }
     }
 

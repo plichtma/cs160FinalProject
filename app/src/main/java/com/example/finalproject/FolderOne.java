@@ -70,6 +70,11 @@ public class FolderOne extends AppCompatActivity {
     public void openRecipe(View view) {
         Intent intent = new Intent(this, EggTart.class);
         startActivity(intent);
+    }
 
+    /** Called when the user taps on a first recipe */
+    public void openPancake(View view) {
+        Intent intent = new Intent(this, Pancake.class);
+        startActivity(intent);
     }
 }
