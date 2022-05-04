@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="37dp"
         android:text="My Recipes"
         android:textColor="#000000"
         android:textSize="40sp"
@@ -34,8 +34,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="181dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="32dp"
         android:clickable="true"
         android:onClick="allRecipes"
         android:text="View All"
@@ -48,7 +48,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="355dp"
         android:layout_marginEnd="30dp"
         android:clickable="true"
         android:onClick="allFolders"
@@ -98,7 +98,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="132dp"
         android:text="Recent Recipes"
         android:textColor="#000000"
         android:textSize="22sp"
@@ -112,57 +112,43 @@
         android:layout_alignParentTop="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="348dp"
+        android:layout_marginTop="344dp"
         android:text="My Folders"
         android:textColor="#000000"
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewSearchRecipes"
-        android:layout_width="239dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="87dp"
-        android:layout_marginTop="112dp"
-        android:background="@drawable/grey_oval"
-        android:gravity="center"
-        android:text="Search Recipes"
-        android:textColor="#000000" />
-
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="90dp"
-        android:layout_height="80dp"
+        android:layout_width="101dp"
+        android:layout_height="91dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="31dp"
-        android:layout_marginTop="218dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="180dp"
         android:onClick="openEggTartRecipe"
         app:srcCompat="@drawable/eggtart" />
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="95dp"
-        android:layout_height="79dp"
+        android:layout_width="101dp"
+        android:layout_height="91dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="219dp"
-        android:layout_marginEnd="154dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="155dp"
         android:onClick="openSaladRecipe"
         app:srcCompat="@drawable/salad" />
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="88dp"
-        android:layout_height="76dp"
+        android:layout_width="101dp"
+        android:layout_height="91dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="219dp"
-        android:layout_marginEnd="31dp"
+        android:layout_marginTop="180dp"
+        android:layout_marginEnd="30dp"
         android:onClick="openPancakeRecipe"
         app:srcCompat="@drawable/pancakes" />
 
@@ -172,8 +158,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="51dp"
-        android:layout_marginTop="302dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="284dp"
         android:text="Egg Tart" />
 
     <TextView
@@ -214,8 +200,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="194dp"
-        android:layout_marginTop="302dp"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="284dp"
         android:text="Salad" />
 
     <TextView
@@ -225,8 +211,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="307dp"
-        android:layout_marginTop="301dp"
+        android:layout_marginStart="300dp"
+        android:layout_marginTop="284dp"
         android:text="Pancakes" />
 
 

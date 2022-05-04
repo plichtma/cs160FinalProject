@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="All Recipes"
+        android:textColor="#000000"
         android:textSize="25sp"
         android:textStyle="bold" />
 
@@ -51,6 +52,20 @@
         app:srcCompat="@drawable/ic_action_add" />
 
 
+    <EditText
+        android:id="@+id/textViewSearchRecipes"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="89dp"
+        android:background="@drawable/grey_oval"
+        android:hint="Search Recipes"
+        android:paddingStart="10dp"
+        android:textColor="#000000" />
+
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
@@ -58,7 +73,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="126dp"
+        android:layout_marginTop="147dp"
         android:layout_marginRight="10dp"
         android:adjustViewBounds="true"
         android:onClick="openRecipe"
@@ -71,8 +86,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="233dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="253dp"
         android:text="Egg Tart" />
 
     <ImageView
@@ -82,8 +97,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="126dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="147dp"
         android:layout_marginRight="10dp"
         android:adjustViewBounds="true"
         android:onClick="openRecipe"
@@ -97,7 +112,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="283dp"
-        android:layout_marginTop="127dp"
+        android:layout_marginTop="148dp"
         android:layout_marginRight="0dp"
         android:adjustViewBounds="true"
         android:onClick="openBreadPuddingRecipe"
@@ -112,7 +127,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="287dp"
-        android:layout_marginTop="233dp"
+        android:layout_marginTop="253dp"
         android:text="Bread Pudding" />
 
     <TextView
@@ -122,8 +137,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="190dp"
-        android:layout_marginTop="233dp"
+        android:layout_marginStart="191dp"
+        android:layout_marginTop="253dp"
         android:text="Salad" />
 
     <ImageView
@@ -133,7 +148,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="285dp"
+        android:layout_marginTop="300dp"
         android:layout_marginRight="10dp"
         android:adjustViewBounds="true"
         android:onClick="openPancakeRecipe"
@@ -147,7 +162,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="394dp"
+        android:layout_marginTop="410dp"
         android:text="Pancakes" />
 
     <TextView
@@ -158,7 +173,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="168dp"
-        android:layout_marginTop="393dp"
+        android:layout_marginTop="410dp"
         android:text="French Toast"
         android:visibility="invisible" />
 
@@ -170,7 +185,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="297dp"
-        android:layout_marginTop="393dp"
+        android:layout_marginTop="410dp"
         android:text="PB Cookies"
         android:visibility="invisible" />
 
@@ -181,8 +196,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="157dp"
-        android:layout_marginTop="287dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="300dp"
         android:layout_marginRight="10dp"
         android:adjustViewBounds="true"
         android:onClick="openRec1Recipe"
@@ -197,7 +212,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="283dp"
-        android:layout_marginTop="286dp"
+        android:layout_marginTop="300dp"
         android:layout_marginRight="10dp"
         android:adjustViewBounds="true"
         android:onClick="openRec2Recipe"
