@@ -94,6 +94,11 @@ public class AllRecipes extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openPancakeRecipe(View view) {
+        Intent intent = new Intent(this, Pancake.class);
+        startActivity(intent);
+    }
+
     /**Called when user taps plus button */
     public void onButtonShowPopupWindowClick(View view) {
 

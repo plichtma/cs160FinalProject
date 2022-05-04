@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -49,7 +50,9 @@ public class FolderTwo extends AppCompatActivity {
 
         if (REC2ADDEDTOFOLDER != null) {
             ImageView rec2 = (ImageView) findViewById(R.id.imageViewRec2AddedFolder);
+            TextView cookies = (TextView) findViewById(R.id.textViewCookies);
             rec2.setVisibility(View.VISIBLE);
+            cookies.setVisibility(View.VISIBLE);
         }
     }
 

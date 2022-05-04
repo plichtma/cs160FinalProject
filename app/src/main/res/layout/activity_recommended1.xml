@@ -71,7 +71,7 @@
             android:layout_marginTop="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/topNav"
-            app:srcCompat="@drawable/eggtartt" />
+            app:srcCompat="@drawable/french_toast" />
 
         <ImageView
             android:id="@+id/imageView3"

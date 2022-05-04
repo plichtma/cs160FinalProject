@@ -173,7 +173,7 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="51dp"
-        android:layout_marginTop="308dp"
+        android:layout_marginTop="302dp"
         android:text="Egg Tart" />
 
     <TextView
@@ -182,8 +182,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="47dp"
-        android:layout_marginTop="482dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="476dp"
         android:text="Breakfast" />
 
     <TextView
@@ -193,8 +193,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="185dp"
-        android:layout_marginTop="482dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginTop="476dp"
         android:text="Dessert" />
 
     <TextView
@@ -204,8 +204,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginStart="313dp"
-        android:layout_marginTop="482dp"
-        android:text="Dessert" />
+        android:layout_marginTop="476dp"
+        android:text="Entrees" />
 
     <TextView
         android:id="@+id/textView4"
@@ -214,9 +214,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="193dp"
-        android:layout_marginTop="308dp"
-        android:text="" />
+        android:layout_marginStart="194dp"
+        android:layout_marginTop="302dp"
+        android:text="Salad" />
 
     <TextView
         android:id="@+id/textView5"
@@ -225,8 +225,8 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="308dp"
-        android:layout_marginTop="309dp"
+        android:layout_marginStart="307dp"
+        android:layout_marginTop="301dp"
         android:text="Pancakes" />
 
 
