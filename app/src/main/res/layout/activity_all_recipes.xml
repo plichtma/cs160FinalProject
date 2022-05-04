@@ -100,7 +100,7 @@
         android:layout_marginTop="127dp"
         android:layout_marginRight="0dp"
         android:adjustViewBounds="true"
-        android:onClick="openRecipe"
+        android:onClick="openBreadPuddingRecipe"
         android:scaleType="fitCenter"
         app:srcCompat="@drawable/bread_pudding" />
 
@@ -113,7 +113,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="287dp"
         android:layout_marginTop="233dp"
-        android:text="Bread_pudding" />
+        android:text="Bread Pudding" />
 
     <TextView
         android:id="@+id/textViewSalad"
@@ -149,6 +149,30 @@
         android:layout_marginStart="50dp"
         android:layout_marginTop="394dp"
         android:text="Pancakes" />
+
+    <TextView
+        android:id="@+id/textViewFrenchToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="393dp"
+        android:text="French Toast"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/textViewCookies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="297dp"
+        android:layout_marginTop="393dp"
+        android:text="PB Cookies"
+        android:visibility="invisible" />
 
     <ImageView
         android:id="@+id/imageViewRec1Added"

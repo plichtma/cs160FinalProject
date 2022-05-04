@@ -55,21 +55,6 @@
         android:textSize="22sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textViewSuggested"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="417dp"
-        android:layout_marginBottom="220dp"
-        android:text="Suggested"
-        android:textColor="#000000"
-        android:textSize="22sp"
-        android:textStyle="bold" />
-
     <ImageView
         android:id="@+id/imageViewRec1"
         android:layout_width="93dp"
@@ -80,6 +65,37 @@
         android:layout_marginTop="165dp"
         android:onClick="openRecommended1"
         app:srcCompat="@drawable/french_toast" />
+
+    <ImageView
+        android:id="@+id/imageViewRec"
+        android:layout_width="93dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="351dp"
+        app:srcCompat="@drawable/lasagna" />
+
+    <ImageView
+        android:id="@+id/imageViewRec3"
+        android:layout_width="93dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="351dp"
+        app:srcCompat="@drawable/kung_pao_tofu" />
+
+    <ImageView
+        android:id="@+id/imageViewRec4"
+        android:layout_width="93dp"
+        android:layout_height="87dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="350dp"
+        app:srcCompat="@drawable/mac_n_cheese" />
 
     <ImageView
         android:id="@+id/imageViewRec2"
@@ -103,6 +119,37 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="260dp"
         android:text="Mod:French To..." />
+
+    <TextView
+        android:id="@+id/textViewRec1Name2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="447dp"
+        android:text="Lasagna" />
+
+    <TextView
+        android:id="@+id/textViewRec1Name4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginTop="446dp"
+        android:text="Mac N Cheese" />
+
+    <TextView
+        android:id="@+id/textViewRec1Name3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="446dp"
+        android:text="Kung Pao Tofu" />
 
     <TextView
         android:id="@+id/textViewRec2Name"

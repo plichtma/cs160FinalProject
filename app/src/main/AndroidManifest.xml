@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".BreadPudding"
+            android:exported="false" />
+        <activity
             android:name=".FolderTwo"
             android:exported="false" />
         <activity

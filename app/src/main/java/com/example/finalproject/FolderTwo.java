@@ -71,7 +71,10 @@ public class FolderTwo extends AppCompatActivity {
     public void openRecipe(View view) {
         Intent intent = new Intent(this, EggTart.class);
         startActivity(intent);
-
     }
 
+    public void openBreadPuddingRecipe(View view) {
+        Intent intent = new Intent(this, BreadPudding.class);
+        startActivity(intent);
+    }
 }

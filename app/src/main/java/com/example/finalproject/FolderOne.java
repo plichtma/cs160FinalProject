@@ -8,6 +8,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -51,7 +52,9 @@ public class FolderOne extends AppCompatActivity {
 
         if (REC1ADDEDTOFOLDER != null) {
             ImageView rec1 = (ImageView) findViewById(R.id.imageViewRec1AddedFolder);
+            TextView ft = (TextView) findViewById(R.id.textViewFrenchToast);
             rec1.setVisibility(View.VISIBLE);
+            ft.setVisibility(View.VISIBLE);
         }
     }
 

@@ -26,8 +26,8 @@
     <string name="messenger_icon">messenger icon</string>
     <string-array name="names">
         <item>Breakfast</item>
-        <item>Lunch</item>
-        <item>Dinner</item>
+        <item>Entrees</item>
         <item>Dessert</item>
+        <item>Snacks</item>
     </string-array>
 </resources>

@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.TextView;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -55,11 +56,15 @@ public class AllRecipes extends AppCompatActivity {
 
         if (Recommended.ADDED1 != null) {
             ImageView rec1 = (ImageView) findViewById(R.id.imageViewRec1Added);
+            TextView ft = (TextView) findViewById(R.id.textViewFrenchToast);
             rec1.setVisibility(View.VISIBLE);
+            ft.setVisibility(View.VISIBLE);
         }
         if (Recommended.ADDED2 != null) {
             ImageView rec2 = (ImageView) findViewById(R.id.imageViewRec2Added);
+            TextView cookies = (TextView) findViewById(R.id.textViewCookies);
             rec2.setVisibility(View.VISIBLE);
+            cookies.setVisibility(View.VISIBLE);
         }
 
 
@@ -96,6 +101,11 @@ public class AllRecipes extends AppCompatActivity {
 
     public void openPancakeRecipe(View view) {
         Intent intent = new Intent(this, Pancake.class);
+        startActivity(intent);
+    }
+
+    public void openBreadPuddingRecipe(View view) {
+        Intent intent = new Intent(this, BreadPudding.class);
         startActivity(intent);
     }
 
