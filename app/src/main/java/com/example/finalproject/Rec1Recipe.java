@@ -31,9 +31,19 @@ public class Rec1Recipe extends AppCompatActivity {
 
     /** Called when the user taps the back icon to go back to home page*/
     public void backToRecipes(View view) {
-
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        //store indicators then reset them
+        Boolean indicator1 = AllRecipes.ALLRECFRENCHTOAST;
+        Boolean indicator2 = FolderOne.FOLDER1FRENCHTOAST;
+        AllRecipes.ALLRECFRENCHTOAST = false;
+        FolderOne.FOLDER1FRENCHTOAST = false;
+        //prepare back options
+        Intent intent1 = new Intent(this, AllRecipes.class);
+        Intent intent2 = new Intent(this, FolderOne.class);
+        if (indicator2 == true) {
+            startActivity(intent2);
+        } else {
+            startActivity(intent1);
+        }
     }
 
     /** Reset instructions when reset is pressed*/

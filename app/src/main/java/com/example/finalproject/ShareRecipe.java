@@ -65,7 +65,7 @@ public class ShareRecipe extends AppCompatActivity {
 
     /** Called when the user taps share with share recipe popup */
     public void sharePopup(View view) {
-        Intent intent = new Intent(this, EggTart.class);
+        Intent intent = new Intent(this, ShareRecipe.class);
         startActivity(intent);
     }
 

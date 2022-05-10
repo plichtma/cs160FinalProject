@@ -30,9 +30,19 @@ public class Salad extends AppCompatActivity {
 
     /** Called when the user taps the back icon to go back to home page*/
     public void backToRecipes(View view) {
-
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        //store indicators then reset them
+        Boolean indicator1 = MainActivity.MAINSALAD;
+        Boolean indicator2 = AllRecipes.ALLRECSALAD;
+        MainActivity.MAINSALAD = false;
+        AllRecipes.ALLRECSALAD = false;
+        //prepare back options
+        Intent intent1 = new Intent(this, MainActivity.class);
+        Intent intent2 = new Intent(this, AllRecipes.class);
+        if (indicator2 == true) {
+            startActivity(intent2);
+        } else {
+            startActivity(intent1);
+        }
     }
 
     /** Reset instructions when reset is pressed*/

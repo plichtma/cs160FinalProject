@@ -12,6 +12,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class AllFolders extends AppCompatActivity {
 
+    //define navigation indicators
+    public static Boolean ALLFOLDER1 = false;
+    public static Boolean ALLFOLDER2 = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,12 +62,14 @@ public class AllFolders extends AppCompatActivity {
     /** Called when the user taps on folder 1 */
     public void openFolder1(View view) {
         Intent intent = new Intent(this, FolderOne.class);
+        ALLFOLDER1 = true;
         startActivity(intent);
     }
 
     /** Called when the user taps on folder 2 */
     public void openFolder2(View view) {
         Intent intent = new Intent(this, FolderTwo.class);
+        ALLFOLDER2 = true;
         startActivity(intent);
     }
 }

@@ -25,26 +25,30 @@ public class AddRecipeToFolder extends AppCompatActivity {
 
     /** Called when the user taps add with add recipe to folder popup */
     public void addPopup(View view) {
-        Intent intent = new Intent(this, AllRecipes.class);
-        //Intent intent1 = new Intent(this, Rec1Recipe.class);
-        //Intent intent2 = new Intent(this, Rec2Recipe.class);
-        Spinner spinner1 = (Spinner)findViewById(R.id.spinner2);
-        String selected_folder = spinner1.getSelectedItem().toString();
-        System.out.println(selected_folder);
-        System.out.println(Rec2Recipe.POPUPOPENED2);
-        //((RECIPE == "rec1") && (selected_folder == "Breakfast"))
-        if ((Rec1Recipe.POPUPOPENED1 == true) && (selected_folder.equals("Breakfast"))) {
-            FolderOne.REC1ADDEDTOFOLDER = true;
-        }else if ((Rec2Recipe.POPUPOPENED2 == true) && (selected_folder.equals("Dessert"))) {
-            FolderTwo.REC2ADDEDTOFOLDER = true;
-        }
+        //store indicators then reset them
+        Boolean rec1Indicator = Rec1Recipe.POPUPOPENED1;
+        Boolean rec2Indicator = Rec2Recipe.POPUPOPENED2;
         Rec1Recipe.POPUPOPENED1 = false;
         Rec2Recipe.POPUPOPENED2 = false;
-        startActivity(intent);
+        //prepare back options
+        Intent intent = new Intent(this, AllRecipes.class);
+        Intent intent1 = new Intent(this, Rec1Recipe.class);
+        Intent intent2 = new Intent(this, Rec2Recipe.class);
+        Spinner spinner1 = (Spinner)findViewById(R.id.spinner2);
+        String selected_folder = spinner1.getSelectedItem().toString();
+        if ((rec1Indicator == true) && (selected_folder.equals("Breakfast"))) {
+            FolderOne.REC1ADDEDTOFOLDER = true;
+            startActivity(intent1);
+        }else if ((rec2Indicator == true) && (selected_folder.equals("Dessert"))) {
+            FolderTwo.REC2ADDEDTOFOLDER = true;
+            startActivity(intent2);
+        } else {
+            startActivity(intent);
+        }
     }
     /** Called when the user taps cancel with add recipe to folder popup */
     public void cancelAddPopup(View view) {
-        Intent intent = new Intent(this, Rec1Recipe.class);
+        Intent intent = new Intent(this, AllRecipes.class);
         Rec1Recipe.POPUPOPENED1 = false;
         Rec2Recipe.POPUPOPENED2 = false;
         startActivity(intent);

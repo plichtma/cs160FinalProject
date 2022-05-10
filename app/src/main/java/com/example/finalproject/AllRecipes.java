@@ -19,6 +19,12 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class AllRecipes extends AppCompatActivity {
 
+    //define navigation indicators
+    public static Boolean ALLRECEGGTART = false;
+    public static Boolean ALLRECSALAD = false;
+    public static Boolean ALLRECFRENCHTOAST = false;
+    public static Boolean ALLRECPBCOOKIE = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -85,17 +91,27 @@ public class AllRecipes extends AppCompatActivity {
     /** Called when the user taps on a recipe */
     public void openRecipe(View view) {
         Intent intent = new Intent(this, EggTart.class);
+        ALLRECEGGTART = true;
+        startActivity(intent);
+    }
+
+    /** Called when the user taps on salad recipe */
+    public void openSaladRecipe(View view) {
+        Intent intent = new Intent(this, Salad.class);
+        ALLRECSALAD = true;
         startActivity(intent);
     }
 
     /** Called when the user taps on rec1recipe */
     public void openRec1Recipe(View view) {
         Intent intent = new Intent(this, Rec1Recipe.class);
+        ALLRECFRENCHTOAST = true;
         startActivity(intent);
     }
     /** Called when the user taps on rec2recipe */
     public void openRec2Recipe(View view) {
         Intent intent = new Intent(this, Rec2Recipe.class);
+        ALLRECPBCOOKIE = true;
         startActivity(intent);
     }
 

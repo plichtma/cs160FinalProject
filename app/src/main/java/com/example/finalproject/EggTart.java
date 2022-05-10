@@ -37,9 +37,24 @@ public class EggTart extends AppCompatActivity {
 
     /** Called when the user taps the back icon to go back to home page*/
     public void backToRecipes(View view) {
-
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        //store indicators then reset them
+        Boolean indicator1 = MainActivity.MAINEGGTART;
+        Boolean indicator2 = AllRecipes.ALLRECEGGTART;
+        Boolean indicator3 = FolderTwo.FOLDER2EGGTART;
+        MainActivity.MAINEGGTART = false;
+        AllRecipes.ALLRECEGGTART =  false;
+        FolderTwo.FOLDER2EGGTART = false;
+        //prepare back options
+        Intent intent1 = new Intent(this, MainActivity.class);
+        Intent intent2 = new Intent(this, AllRecipes.class);
+        Intent intent3 = new Intent(this, FolderTwo.class);
+        if (indicator2 == true) {
+            startActivity(intent2);
+        } else if (indicator3 == true) {
+            startActivity(intent3);
+        } else {
+            startActivity(intent1);
+        }
     }
 
     /** Reset instructions when reset is pressed*/

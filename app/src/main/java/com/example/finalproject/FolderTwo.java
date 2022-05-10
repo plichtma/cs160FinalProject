@@ -14,6 +14,10 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class FolderTwo extends AppCompatActivity {
     public static Boolean REC2ADDEDTOFOLDER;
+    //define navigation indicators
+    public static Boolean FOLDER2EGGTART = false;
+    public static Boolean FOLDER2PBCOOKIE = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -58,18 +62,31 @@ public class FolderTwo extends AppCompatActivity {
 
     /** Called when the user taps the back arrow */
     public void backMain(View view) {
-        Intent intent = new Intent(this, MainActivity.class);
-        startActivity(intent);
+        //store indicators then reset them
+        Boolean indicator1 = MainActivity.MAINFOLDER2;
+        Boolean indicator2 = AllFolders.ALLFOLDER2;
+        MainActivity.MAINFOLDER2 = false;
+        AllFolders.ALLFOLDER2 = false;
+        //prepare back options
+        Intent intent1 = new Intent(this, MainActivity.class);
+        Intent intent2 = new Intent(this, AllFolders.class);
+        if (indicator2 == true) {
+            startActivity(intent2);
+        } else {
+            startActivity(intent1);
+        }
     }
     /** Called when the user taps on rec1recipe */
     public void openRec2Recipe(View view) {
         Intent intent = new Intent(this, Rec2Recipe.class);
+        FOLDER2PBCOOKIE = true;
         startActivity(intent);
     }
 
     /** Called when the user taps on a first recipe */
     public void openRecipe(View view) {
         Intent intent = new Intent(this, EggTart.class);
+        FOLDER2EGGTART = true;
         startActivity(intent);
     }
 
