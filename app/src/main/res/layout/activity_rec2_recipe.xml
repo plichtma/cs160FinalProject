@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rectwo_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:paddingBottom="10dp"
@@ -77,6 +78,7 @@
                 android:layout_marginEnd="7dp"
                 android:layout_toStartOf="@+id/imageButton5"
                 app:srcCompat="@drawable/edit"
+                android:onClick="onButtonShowNewNotePopupWindow"
                 app:tint="@color/black" />
         </RelativeLayout>
 
@@ -417,17 +419,21 @@
                     <TableRow android:gravity="center_vertical">
 
                         <TextView
+                            android:id="@+id/textViewBulletRec2"
                             android:layout_column="1"
-                            android:text="⊕"
+                            android:text="•"
                             android:textColor="@color/darkgray"
-                            android:textSize="18dp"/>
+                            android:textSize="40dp"
+                            android:visibility="gone"/>
 
                         <TextView
+                            android:id="@+id/textViewNewNoteRec2"
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
-                            android:text="add note"
-                            android:textColor="@color/darkgray"/>
+                            android:text=""
+                            android:textColor="@color/darkgray"
+                            android:visibility="gone"/>
                     </TableRow>
                 </TableLayout>
 

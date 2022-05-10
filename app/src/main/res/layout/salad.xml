@@ -4,6 +4,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/salad_layout"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:paddingBottom="10dp"
@@ -77,6 +78,7 @@
                 android:layout_marginEnd="7dp"
                 android:layout_toStartOf="@+id/imageButton5"
                 app:srcCompat="@drawable/edit"
+                android:onClick="onButtonShowNewNotePopupWindow"
                 app:tint="@color/black" />
         </RelativeLayout>
 
@@ -379,7 +381,7 @@
                             android:layout_column="1"
                             android:text="•"
                             android:textColor="@color/black"
-                            android:textSize="40dp"></TextView>
+                            android:textSize="40dp"/>
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -387,23 +389,27 @@
                             android:layout_marginLeft="20dp"
                             android:text="The key here is to use what you can get, and not try to force anything into the salad that won't be great. If you live near a farm stand or farmers market, that may be your best bet.
 If not, or if it's not the right season, stick to hardy leafy vegetables and herbs like radicchio, endive, romaine, escarole, frisée, and baby kale. "
-                            android:textColor="@color/black"></TextView>
+                            android:textColor="@color/black"/>
                     </TableRow>
 
                     <TableRow android:gravity="center_vertical">
 
                         <TextView
+                            android:id="@+id/textViewBulletSalad"
                             android:layout_column="1"
-                            android:text="⊕"
+                            android:text="•"
                             android:textColor="@color/darkgray"
-                            android:textSize="18dp"></TextView>
+                            android:textSize="40dp"
+                            android:visibility="gone"/>
 
                         <TextView
+                            android:id="@+id/textViewNewNoteSalad"
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
-                            android:text="add note"
-                            android:textColor="@color/darkgray"></TextView>
+                            android:text=""
+                            android:textColor="@color/darkgray"
+                            android:visibility="gone"/>
                     </TableRow>
                 </TableLayout>
 
