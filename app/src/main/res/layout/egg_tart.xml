@@ -424,7 +424,7 @@
                             android:layout_width="wrap_content"
                             android:layout_column="2"
                             android:layout_marginLeft="20dp"
-                            android:text="Make sure to whisk the eggs enough or the egg tart becomes to dense"
+                            android:text="Make sure to whisk the eggs enough or the egg             tart becomes to dense"
                             android:textColor="@color/black"/>
                     </TableRow>
 
